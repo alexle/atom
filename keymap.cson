@@ -5,3 +5,6 @@
 # j-j escape
 'atom-text-editor.vim-mode.insert-mode':
   'j': 'exit-insert-mode-if-preceded-by-j'
+
+'atom-text-editor.vim-mode:not(.insert-mode)':
+  '; w': 'core:save'
