@@ -1,6 +1,7 @@
 storage
 compile-cache
 dev
+.tags
 .npm
 .node-gyp
 .apm

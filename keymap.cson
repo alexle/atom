@@ -8,3 +8,8 @@
 
 'atom-text-editor.vim-mode:not(.insert-mode)':
   '; w': 'core:save'
+
+'.platform-win32 atom-text-editor.vim-mode:not(.insert-mode)':
+  'ctrl-]': 'atom-ctags:go-to-declaration',
+  'ctrl-t': 'atom-ctags:return-from-declaration',
+  'ctrl-r': 'atom-ctags:toggle-file-symbols'
