@@ -6,10 +6,20 @@
 'atom-text-editor.vim-mode.insert-mode':
   'j': 'exit-insert-mode-if-preceded-by-j'
 
+# ;w save
 'atom-text-editor.vim-mode:not(.insert-mode)':
   '; w': 'core:save'
 
+# Ctags navigation
 '.platform-win32 atom-text-editor.vim-mode:not(.insert-mode)':
   'ctrl-]': 'atom-ctags:go-to-declaration',
   'ctrl-t': 'atom-ctags:return-from-declaration',
   'ctrl-r': 'atom-ctags:toggle-file-symbols'
+
+# Tab cycle
+'body':
+  'ctrl-h': 'pane:show-previous-item'
+  'ctrl-l': 'pane:show-next-item'
+
+'atom-workspace atom-text-editor':
+  'ctrl-l': 'unset!'
