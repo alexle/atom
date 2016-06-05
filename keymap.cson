@@ -28,5 +28,6 @@
 'atom-text-editor.vim-mode:not(.insert-mode)':
   'ctrl-q': 'core:close'
 
+# Git add, commit, push
 '.platform-win32, .platform-linux':
   'ctrl-shift-X': 'git-plus:add-all-commit-and-push'
