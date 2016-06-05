@@ -2,32 +2,31 @@
 # * https://atom.io/docs/latest/using-atom-basic-customization#customizing-key-bindings
 # * https://atom.io/docs/latest/behind-atom-keymaps-in-depth
 
-# j-j escape
+'body':
+  'ctrl-h': 'pane:show-previous-item'
+  'ctrl-l': 'pane:show-next-item'
+  'ctrl-q': 'core:close'
+  '; w': 'core:save'
+  'ctrl-w': 'core:close'
+
 'atom-text-editor.vim-mode.insert-mode':
   'j': 'exit-insert-mode-if-preceded-by-j'
 
-# ;w save
 'atom-text-editor.vim-mode:not(.insert-mode)':
-  '; w': 'core:save'
+  'ctrl-w v': 'pane:split-right-and-copy-active-item'
+  ';': 'unset!'
 
-# Ctags navigation
+# from vim-mode.cson
+# ';': 'vim-mode:repeat-find'
+# ',': 'vim-mode:repeat-find-reverse'
+
 '.platform-win32 atom-text-editor.vim-mode:not(.insert-mode)':
   'ctrl-]': 'atom-ctags:go-to-declaration',
   'ctrl-t': 'atom-ctags:return-from-declaration',
   'ctrl-r': 'atom-ctags:toggle-file-symbols'
 
-# Tab cycle
-'body':
-  'ctrl-h': 'pane:show-previous-item'
-  'ctrl-l': 'pane:show-next-item'
-
 'atom-workspace atom-text-editor':
   'ctrl-l': 'unset!'
 
-# Close tab
-'atom-text-editor.vim-mode:not(.insert-mode)':
-  'ctrl-q': 'core:close'
-
-# Git add, commit, push
 '.platform-win32, .platform-linux':
   'ctrl-shift-X': 'git-plus:add-all-commit-and-push'
