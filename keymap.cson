@@ -3,22 +3,26 @@
 # * https://atom.io/docs/latest/behind-atom-keymaps-in-depth
 
 'body':
+  # Cycle through items in pane
   'ctrl-h': 'pane:show-previous-item'
   'ctrl-l': 'pane:show-next-item'
+  # Close
   'ctrl-q': 'core:close'
-  '; w': 'core:save'
   'ctrl-w': 'core:close'
+  # Save
+  '; w': 'core:save'
 
 'atom-text-editor.vim-mode.insert-mode':
+  # j-j
   'j': 'exit-insert-mode-if-preceded-by-j'
 
 'atom-text-editor.vim-mode:not(.insert-mode)':
+  # V-split pane
   'ctrl-w v': 'pane:split-right-and-copy-active-item'
+  # Unbind ;
   ';': 'unset!'
-
-# from vim-mode.cson
-# ';': 'vim-mode:repeat-find'
-# ',': 'vim-mode:repeat-find-reverse'
+  # ';': 'vim-mode:repeat-find'
+  # ',': 'vim-mode:repeat-find-reverse'
 
 '.platform-win32 atom-text-editor.vim-mode:not(.insert-mode)':
   'ctrl-]': 'atom-ctags:go-to-declaration',
@@ -29,4 +33,5 @@
   'ctrl-l': 'unset!'
 
 '.platform-win32, .platform-linux':
+  # Git add, commit, push
   'ctrl-shift-X': 'git-plus:add-all-commit-and-push'
