@@ -5,5 +5,4 @@
 .apm
 storage
 compile-cache
-dev
 blob-store
