@@ -24,5 +24,9 @@
 'atom-workspace atom-text-editor':
   'ctrl-l': 'unset!'
 
+# Close tab
 'atom-text-editor.vim-mode:not(.insert-mode)':
   'ctrl-q': 'core:close'
+
+'.platform-win32, .platform-linux':
+  'ctrl-shift-X': 'git-plus:add-all-commit-and-push'
