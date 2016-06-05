@@ -23,3 +23,6 @@
 
 'atom-workspace atom-text-editor':
   'ctrl-l': 'unset!'
+
+'atom-text-editor.vim-mode:not(.insert-mode)':
+  'ctrl-q': 'core:close'
