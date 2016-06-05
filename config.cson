@@ -1,4 +1,6 @@
 "*":
+  "atom-ctags":
+    cmdArgs: "--exclude=.git --exclude=.tags --exlucde .tags1"
   core:
     disabledPackages: [
       "symbols-view"
