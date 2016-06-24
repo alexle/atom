@@ -11,6 +11,10 @@
   'ctrl-w': 'core:close'
   # Save
   '; w': 'core:save'
+  '; v s p': 'pane:split-right-and-copy-active-item'
+
+'atom-text-editor.vim-mode':
+  'ctrl-c': 'unset!'
 
 'atom-text-editor.vim-mode.insert-mode':
   # j-j
