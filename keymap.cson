@@ -23,6 +23,7 @@
 'atom-text-editor.vim-mode:not(.insert-mode)':
   # V-split pane
   'ctrl-w v': 'pane:split-right-and-copy-active-item'
+  'ctrl-w v': 'pane:split-right-and-copy-active-item'
   # Unbind ;
   ';': 'unset!'
   # ';': 'vim-mode:repeat-find'
@@ -33,9 +34,13 @@
   'ctrl-t': 'atom-ctags:return-from-declaration',
   'ctrl-r': 'atom-ctags:toggle-file-symbols'
 
+'atom-workspace atom-text-editor:not([mini])':
+  'ctrl-shift-D': 'unset!'
+
 'atom-workspace atom-text-editor':
   'ctrl-l': 'unset!'
 
 '.platform-win32, .platform-linux':
   # Git add, commit, push
   'ctrl-shift-X': 'git-plus:add-all-commit-and-push'
+  'editor:duplicate-lines': 'unset!'
