@@ -44,3 +44,4 @@
   # Git add, commit, push
   'ctrl-shift-X': 'git-plus:add-all-commit-and-push'
   'editor:duplicate-lines': 'unset!'
+  'ctrl-shift-D': 'git-plus:diff'

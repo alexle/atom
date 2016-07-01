@@ -41,3 +41,6 @@
     useSmartcaseForSearch: true
   welcome:
     showOnStartup: false
+".diff.source":
+  editor:
+    tabLength: 3
