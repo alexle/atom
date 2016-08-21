@@ -34,7 +34,8 @@
     userId: "c7bc6dce-b977-5957-6068-f54415bd48b0"
   "git-diff-details":
     closeAfterCopy: true
-  "highlight-selected": {}
+  "highlight-selected":
+    lightTheme: true
   "tree-view":
     hideIgnoredNames: true
   "vim-mode":
