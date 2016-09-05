@@ -28,6 +28,7 @@
   editor:
     fontSize: 13
     invisibles: {}
+    softTabs: false
     tabLength: 3
     tabType: "soft"
   "exception-reporting":
