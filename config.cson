@@ -2,6 +2,7 @@
   "atom-ctags":
     cmdArgs: "--exclude=.git --exclude=.tags --exlucde .tags1"
   core:
+    audioBeep: false
     disabledPackages: [
       "symbols-view"
     ]
@@ -25,6 +26,7 @@
     packagesWithKeymapsDisabled: [
       "atom-ctags"
     ]
+    telemetryConsent: "limited"
   editor:
     fontSize: 13
     invisibles: {}
