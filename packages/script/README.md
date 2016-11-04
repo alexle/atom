@@ -24,7 +24,7 @@ Currently supported grammars are:
 | C                                    | Yes        | Yes             | Only available on OSX (`xcrun clang`) and Linux (`cc`) |
 | C#                                   | Yes        | Yes             | Requires the path of 'csc.exe' in your system environment variables |
 | C# Script                            | Yes        | Yes             | |
-| C++                                  | Yes        | Yes             | Only available on OSX (`xcurn clang++`) and Linux (`g++`) |
+| C++                                  | Yes        | Yes             | Requires `-std=c++14`. Only available on OSX (`xcrun clang++`) and Linux (`g++`) |
 | Clojure                              | Yes        | Yes             | Clojure scripts are executed via [Leiningen](http://leiningen.org/)'s [exec](https://github.com/kumarshantanu/lein-exec) plugin. Both `Leiningen` and `exec` must be installed |
 | CoffeeScript                         | Yes        | Yes             | |
 | CoffeeScript (Literate)              | Yes        | Yes             | Running selections of code for CoffeeScript (Literate) only works when selecting just the code blocks |
@@ -88,6 +88,7 @@ Currently supported grammars are:
 | Racket                               | Yes        | Yes             | |
 | [RANT](https://github.com/TheBerkin/Rant) | Yes        | Yes             | |
 | Reason                               | Yes        | Yes             | |
+| Ren'Py                               | Yes        | No              | Requires `renpy` to be in path. Runs project at root of current file.|
 | RSpec                                | Yes        | Yes             | |
 | Ruby                                 | Yes        | Yes             | |
 | Ruby on Rails                        | Yes        | Yes             | |
@@ -101,7 +102,7 @@ Currently supported grammars are:
 | Stata                                | Yes        | Yes             | Runs through Stata. Note stata needs to be added to your system PATH for this to work. `Mac directions <http://www.stata.com/support/faqs/mac/advanced-topics/>`_ . |
 | Swift                                | Yes        |                 | |
 | Tcl                                  | Yes        | Yes             | |
-| TypeScript                           | Yes        | Yes             | |
+| TypeScript                           | Yes        | Yes             | Requires `ts-node` https://github.com/TypeStrong/ts-node |
 | Zsh                                  | Yes        | Yes             | The shell used is based on your default `$SHELL` environment variable |
 
 **NOTE**: Some grammars may require you to install [a custom language package](https://atom.io/search?utf8=✓&q=language).
