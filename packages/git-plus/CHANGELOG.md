@@ -1,5 +1,14 @@
 ## Changelog
 
+### 5.25.4
+- Show error when attempting to push to pull from non-existent upstream branch.
+
+### 5.25.3
+- Fix [#548](https://github.com/akonwi/git-plus/issues/548)
+
+### 5.25.2
+- Fix [#545](https://github.com/akonwi/git-plus/issues/545)
+
 ### 5.25.1
 - Use experimental toggle: 'Always Pull From Upstream', when pulling before pushing is enabled
 
