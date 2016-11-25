@@ -32,7 +32,8 @@
 '.platform-win32 atom-text-editor.vim-mode:not(.insert-mode)':
   'ctrl-]': 'atom-ctags:go-to-declaration',
   'ctrl-t': 'atom-ctags:return-from-declaration',
-  'ctrl-r': 'atom-ctags:toggle-file-symbols'
+  'ctrl-r': 'atom-ctags:toggle-file-symbols',
+  'ctrl-shift-E': 'script:run'
 
 'atom-workspace atom-text-editor:not([mini])':
   'ctrl-shift-D': 'unset!'
