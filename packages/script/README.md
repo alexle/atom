@@ -54,6 +54,7 @@ Currently supported grammars are:
 | Jolie                                | Yes        |                 | |
 | Julia                                | Yes        | Yes             | |
 | Kotlin                               | Yes        | Yes             | |
+| LAMMPS                               | Yes        |                 | Only available on Linux and macOS. Requires 'lammps' to be in path. |
 | LaTeX (via latexmk)                  | Yes        |                 | |
 | LilyPond                             | Yes        |                 | |
 | Lisp (via SBCL)                      | Yes        | Yes             | Selection based runs are limited to single line |
@@ -103,6 +104,7 @@ Currently supported grammars are:
 | Swift                                | Yes        |                 | |
 | Tcl                                  | Yes        | Yes             | |
 | TypeScript                           | Yes        | Yes             | Requires `ts-node` https://github.com/TypeStrong/ts-node |
+| VBScript                             | Yes        | Yes             | |
 | Zsh                                  | Yes        | Yes             | The shell used is based on your default `$SHELL` environment variable |
 
 **NOTE**: Some grammars may require you to install [a custom language package](https://atom.io/search?utf8=✓&q=language).

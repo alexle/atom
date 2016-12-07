@@ -394,6 +394,12 @@ module.exports =
         args = ['-c', "kotlinc #{context.filepath} -include-runtime -d /tmp/#{jarName} && java -jar /tmp/#{jarName}"]
         return args
 
+  LAMMPS:
+    if GrammarUtils.OperatingSystem.isDarwin() || GrammarUtils.OperatingSystem.isLinux()
+      "File Based":
+        command: "lammps"
+        args: (context) -> ['-log', 'none', '-in', context.filepath]
+
   LaTeX:
     "File Based":
       command: "latexmk"
@@ -842,3 +848,14 @@ module.exports =
     "File Based":
       command: "ts-node"
       args: (context) -> [context.filepath]
+
+  VBScript:
+    'Selection Based':
+      command: 'cscript'
+      args: (context) ->
+        code = context.getCode()
+        tmpFile = GrammarUtils.createTempFileWithCode(code, ".vbs")
+        ['//NOLOGO',tmpFile]
+    'File Based':
+      command: 'cscript'
+      args: (context) -> ['//NOLOGO',context.filepath]
