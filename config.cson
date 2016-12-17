@@ -39,6 +39,8 @@
     closeAfterCopy: true
   "highlight-selected":
     lightTheme: true
+  script:
+    cwdBehavior: "Directory of the script"
   "tree-view":
     hideIgnoredNames: true
   "vim-mode":

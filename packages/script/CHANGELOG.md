@@ -1,3 +1,16 @@
+## 3.13.0
+
+* Support for `HTML`
+* Fix exception during profile saving
+
+## 3.12.2
+
+* Fix condition for detecting cwd.
+
+## 3.12.1
+
+* Fix `Cannot read property 'path' of undefined`
+
 ## 3.12.0
 
 * Convert codebase to ES6 Javascript
