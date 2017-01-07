@@ -1,6 +1,9 @@
 "*":
   "atom-ctags":
     cmdArgs: "--exclude=.git --exclude=.tags --exlucde .tags1"
+  build:
+    beepWhenDone: true
+    saveOnBuild: true
   core:
     audioBeep: false
     disabledPackages: [
