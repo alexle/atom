@@ -85,12 +85,14 @@ Currently supported grammars are:
 | PowerShell                           | Yes        | Yes             | |
 | Processing                           | Yes        |                 | Runs through processing-java. |
 | Prolog                               | Yes        |                 | Scripts must contain a rule with the head `main` (e.g.`main:- parent(X,lucas),writeln(X).`). The script is executed with the goal `main` and is halted after the first result is found. The output is produced by the `writeln/1` predicates. It requires swipl |
+| PureScript                           | Yes        |                 | Requires `pulp` to be in path. |
 | Python                               | Yes        | Yes             | |
 | R                                    | Yes        | Yes             | |
 | Racket                               | Yes        | Yes             | |
 | [RANT](https://github.com/TheBerkin/Rant) | Yes        | Yes             | |
 | Reason                               | Yes        | Yes             | |
 | Ren'Py                               | Yes        | No              | Requires `renpy` to be in path. Runs project at root of current file.|
+| Robot Framework                      | Yes        | No              | Requires `robot` to be in path. Output location depends on CWD behaviour which can be altered in settings. |
 | RSpec                                | Yes        | Yes             | |
 | Ruby                                 | Yes        | Yes             | |
 | Ruby on Rails                        | Yes        | Yes             | |

@@ -653,6 +653,15 @@ module.exports =
       command: "bash"
       args: (context) -> ['-c', 'cd \"' + context.filepath.replace(/[^\/]*$/, '') + '\"; swipl -f \"' + context.filepath + '\" -t main --quiet']
 
+  PureScript:
+    "File Based":
+      command: if GrammarUtils.OperatingSystem.isWindows() then "cmd" else "bash"
+      args: (context) ->
+        if GrammarUtils.OperatingSystem.isWindows()
+          ['/c cd "' + context.filepath.replace(/[^\/]*$/, '') + '" && pulp run']
+        else
+          ['-c', 'cd "' + context.filepath.replace(/[^\/]*$/, '') + '" && pulp run']
+
   Python:
     "Selection Based":
       command: "python"
@@ -707,6 +716,11 @@ module.exports =
     "File Based":
       command: "renpy"
       args: (context) -> [context.filepath.substr(0, context.filepath.lastIndexOf("/game"))]
+
+  'Robot Framework':
+    "File Based":
+      command: 'robot'
+      args: (context) -> [context.filepath]
 
   RSpec:
     "Selection Based":
