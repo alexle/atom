@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "C:\\Users\\Alex\\AppData\\Local\\Temp\\d-117011-8752-8i0413\\package.tgz",
+        "raw": "C:\\Users\\Alex\\AppData\\Local\\Temp\\d-117025-17244-1ietv0o\\package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "C:\\Users\\Alex\\AppData\\Local\\Temp\\d-117011-8752-8i0413\\package.tgz",
-        "spec": "C:\\Users\\Alex\\AppData\\Local\\Temp\\d-117011-8752-8i0413\\package.tgz",
+        "rawSpec": "C:\\Users\\Alex\\AppData\\Local\\Temp\\d-117025-17244-1ietv0o\\package.tgz",
+        "spec": "C:\\Users\\Alex\\AppData\\Local\\Temp\\d-117025-17244-1ietv0o\\package.tgz",
         "type": "local"
       },
-      "C:\\Users\\Alex\\AppData\\Local\\Temp\\apm-install-dir-117011-8752-18ytsty"
+      "C:\\Users\\Alex\\AppData\\Local\\Temp\\apm-install-dir-117025-17244-rvszxz"
     ]
   ],
-  "_from": "..\\d-117011-8752-8i0413\\package.tgz",
-  "_id": "script@3.14.0",
+  "_from": "..\\d-117025-17244-1ietv0o\\package.tgz",
+  "_id": "script@3.14.1",
   "_inCache": true,
   "_installable": true,
   "_location": "/script",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "C:\\Users\\Alex\\AppData\\Local\\Temp\\d-117011-8752-8i0413\\package.tgz",
+    "raw": "C:\\Users\\Alex\\AppData\\Local\\Temp\\d-117025-17244-1ietv0o\\package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "C:\\Users\\Alex\\AppData\\Local\\Temp\\d-117011-8752-8i0413\\package.tgz",
-    "spec": "C:\\Users\\Alex\\AppData\\Local\\Temp\\d-117011-8752-8i0413\\package.tgz",
+    "rawSpec": "C:\\Users\\Alex\\AppData\\Local\\Temp\\d-117025-17244-1ietv0o\\package.tgz",
+    "spec": "C:\\Users\\Alex\\AppData\\Local\\Temp\\d-117025-17244-1ietv0o\\package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:..\\d-117011-8752-8i0413\\package.tgz",
-  "_shasum": "2f11ad7d4fc0895dfb0281a9494f5fab5f7617df",
+  "_resolved": "file:..\\d-117025-17244-1ietv0o\\package.tgz",
+  "_shasum": "4e6a764bced2b6f1a9cc7f59fb07d43e3ef396df",
   "_shrinkwrap": null,
-  "_spec": "C:\\Users\\Alex\\AppData\\Local\\Temp\\d-117011-8752-8i0413\\package.tgz",
-  "_where": "C:\\Users\\Alex\\AppData\\Local\\Temp\\apm-install-dir-117011-8752-18ytsty",
+  "_spec": "C:\\Users\\Alex\\AppData\\Local\\Temp\\d-117025-17244-1ietv0o\\package.tgz",
+  "_where": "C:\\Users\\Alex\\AppData\\Local\\Temp\\apm-install-dir-117025-17244-rvszxz",
   "activationCommands": {
     "atom-text-editor": [
       "script:run",
@@ -327,7 +327,7 @@
   ],
   "dependencies": {
     "ansi-to-html": "^0.4.2",
-    "atom-message-panel": "^1.2.7",
+    "atom-message-panel": "1.2.7",
     "atom-space-pen-views": "^2.0.3",
     "strip-ansi": "^3.0.0",
     "underscore": "^1.8.3",
@@ -411,5 +411,5 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
-  "version": "3.14.0"
+  "version": "3.14.1"
 }
