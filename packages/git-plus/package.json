@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "C:\\Users\\Alex\\AppData\\Local\\Temp\\d-117118-6460-zdl206\\package.tgz",
+        "raw": "C:\\Users\\Alex\\AppData\\Local\\Temp\\d-117125-1952-1rkga9t\\package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "C:\\Users\\Alex\\AppData\\Local\\Temp\\d-117118-6460-zdl206\\package.tgz",
-        "spec": "C:\\Users\\Alex\\AppData\\Local\\Temp\\d-117118-6460-zdl206\\package.tgz",
+        "rawSpec": "C:\\Users\\Alex\\AppData\\Local\\Temp\\d-117125-1952-1rkga9t\\package.tgz",
+        "spec": "C:\\Users\\Alex\\AppData\\Local\\Temp\\d-117125-1952-1rkga9t\\package.tgz",
         "type": "local"
       },
-      "C:\\Users\\Alex\\AppData\\Local\\Temp\\apm-install-dir-117118-6460-62qbp"
+      "C:\\Users\\Alex\\AppData\\Local\\Temp\\apm-install-dir-117125-1952-1gsgw7t"
     ]
   ],
-  "_from": "..\\d-117118-6460-zdl206\\package.tgz",
-  "_id": "git-plus@7.3.0",
+  "_from": "..\\d-117125-1952-1rkga9t\\package.tgz",
+  "_id": "git-plus@7.3.3",
   "_inCache": true,
   "_installable": true,
   "_location": "/git-plus",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "C:\\Users\\Alex\\AppData\\Local\\Temp\\d-117118-6460-zdl206\\package.tgz",
+    "raw": "C:\\Users\\Alex\\AppData\\Local\\Temp\\d-117125-1952-1rkga9t\\package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "C:\\Users\\Alex\\AppData\\Local\\Temp\\d-117118-6460-zdl206\\package.tgz",
-    "spec": "C:\\Users\\Alex\\AppData\\Local\\Temp\\d-117118-6460-zdl206\\package.tgz",
+    "rawSpec": "C:\\Users\\Alex\\AppData\\Local\\Temp\\d-117125-1952-1rkga9t\\package.tgz",
+    "spec": "C:\\Users\\Alex\\AppData\\Local\\Temp\\d-117125-1952-1rkga9t\\package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:..\\d-117118-6460-zdl206\\package.tgz",
-  "_shasum": "cd8c6cf37f5360254fd4350a72bbdb54536310d2",
+  "_resolved": "file:..\\d-117125-1952-1rkga9t\\package.tgz",
+  "_shasum": "f86741aeff7dc3a3e53addb961a56cafcc30cd0b",
   "_shrinkwrap": null,
-  "_spec": "C:\\Users\\Alex\\AppData\\Local\\Temp\\d-117118-6460-zdl206\\package.tgz",
-  "_where": "C:\\Users\\Alex\\AppData\\Local\\Temp\\apm-install-dir-117118-6460-62qbp",
+  "_spec": "C:\\Users\\Alex\\AppData\\Local\\Temp\\d-117125-1952-1rkga9t\\package.tgz",
+  "_where": "C:\\Users\\Alex\\AppData\\Local\\Temp\\apm-install-dir-117125-1952-1gsgw7t",
   "bugs": {
     "url": "https://github.com/akonwi/git-plus/issues"
   },
@@ -57,10 +57,7 @@
     "atom-space-pen-views": "^2.0.3",
     "fs-plus": "^2.2.0",
     "fuzzaldrin": "^1.2.0",
-    "underscore": "^1.8.3",
-    "underscore-plus": "^1.6.6",
-    "universal-analytics": "^0.4.8",
-    "uuid": "^3.0.1"
+    "underscore-plus": "^1.6.6"
   },
   "description": "Do git things without the terminal",
   "devDependencies": {
@@ -91,5 +88,5 @@
     "type": "git",
     "url": "git+https://github.com/akonwi/git-plus.git"
   },
-  "version": "7.3.0"
+  "version": "7.3.3"
 }
